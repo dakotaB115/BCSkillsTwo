@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Hamburger } from "../ComponentIndex";
 
 import "./NavBar.scss";
 
@@ -16,12 +17,15 @@ export default class NavBar extends Component {
           <span>BC</span>
           {`SKILLS>`}
         </div>
-        <div className="elements">
+        <div className="hamburger">
+          <Hamburger />
+        </div>
+        {/* <div className="elements">
           <div onClick={() => this.scrollTo("home")}>Home</div>
           <div onClick={() => this.scrollTo("about")}>About</div>
           <div onClick={() => this.scrollTo("testimonials")}>Testimonials</div>
           <div onClick={() => this.scrollTo("contact")}>Contact</div>
-        </div>
+        </div> */}
       </div>
     );
   }

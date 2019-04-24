@@ -1,4 +1,24 @@
 .testimonial-container {
-  height: 1000px;
   background-color: saddlebrown;
+  .row-one {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  .row-middle-one {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  .row-middle-two {
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  .row-last {
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+  }
 }

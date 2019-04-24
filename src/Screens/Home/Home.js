@@ -5,7 +5,7 @@ import "./Home.scss";
 export default class Home extends Component {
   render() {
     return (
-      <div className="home-container">
+      <div className="home-container" style={{ position: "relative" }}>
         <div
           id="home"
           style={{ position: "absolute", top: -71, right: "50%" }}

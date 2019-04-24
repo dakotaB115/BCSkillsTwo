@@ -11,7 +11,7 @@ export default class About extends Component {
             <div className="about-title">About Us</div>
             <div
               id="about"
-              style={{ position: "absolute", top: -50, right: "50%" }}
+              style={{ position: "absolute", top: -71, right: "50%" }}
             />
             <div className="about-description">
               At <span>BCSKILLS</span>, we believe <span>EVERYONE</span> has the
