@@ -8,7 +8,13 @@ export default class Testimonials extends Component {
   render() {
     return (
       <div className="testimonial-container">
-        <Card />
+        <div
+          id="testimonials"
+          style={{ position: "absolute", top: 2000, right: "50%" }}
+        />
+        <div>
+          <Card />
+        </div>
       </div>
     );
   }

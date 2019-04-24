@@ -3,17 +3,19 @@ import React from "react";
 import { Home, About, Testimonials, Contact } from "./Screens/ScreenIndex";
 import { NavBar } from "./Components/ComponentIndex";
 
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Home />
+    <body className="App">
+      <NavBar className="navbar" />
+      <div className="home">
+        <Home />
+      </div>
       <About />
       <Testimonials />
       <Contact />
-    </div>
+    </body>
   );
 }
 
