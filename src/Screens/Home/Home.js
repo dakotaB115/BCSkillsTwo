@@ -10,7 +10,11 @@ export default class Home extends Component {
           id="home"
           style={{ position: "absolute", top: -71, right: "50%" }}
         />
-        <div>Home</div>
+        <div className="content">
+          <div className="pic-container">
+            <img src={require(`../../Img/classpic.jpg`)} alt="classpic.jpg" />
+          </div>
+        </div>
       </div>
     );
   }

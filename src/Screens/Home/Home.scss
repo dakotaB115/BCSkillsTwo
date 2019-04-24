@@ -1,4 +1,19 @@
 .home-container {
-  height: 1000px;
+  overflow: hidden;
   background-color: aqua;
+  .content {
+    display: flex;
+    .pic-container {
+      width: 100%;
+      height: auto;
+      > * {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+div {
+  margin: 0;
 }
