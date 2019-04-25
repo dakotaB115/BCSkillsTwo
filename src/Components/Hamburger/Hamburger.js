@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Sidebar } from "../ComponentIndex";
 
+import "./Hamburger.scss";
+
 export default class Hamburger extends Component {
   state = {
     showSidebar: false
@@ -20,10 +22,13 @@ export default class Hamburger extends Component {
   render() {
     return (
       <div className="constructor">
-        <div onClick={this.toggleSidebar}>
-          <div>-</div>
-          <div>-</div>
-          <div>-</div>
+        <div className="wrapper">
+          <img
+            className="menu"
+            onClick={this.toggleSidebar}
+            src={require(`../../Img/Hamburger_icon.png`)}
+            alt="Hamburger_icon.png"
+          />
         </div>
 
         <Sidebar
@@ -41,11 +46,30 @@ export default class Hamburger extends Component {
               >
                 Home
               </div>
-              <div onClick={() => this.scrollTo("about")}>About</div>
-              <div onClick={() => this.scrollTo("testimonials")}>
+              <div
+                onClick={() => {
+                  this.scrollTo("about");
+                  this.toggleSidebar();
+                }}
+              >
+                About
+              </div>
+              <div
+                onClick={() => {
+                  this.scrollTo("testimonials");
+                  this.toggleSidebar();
+                }}
+              >
                 Testimonials
               </div>
-              <div onClick={() => this.scrollTo("contact")}>Contact</div>
+              <div
+                onClick={() => {
+                  this.scrollTo("contact");
+                  this.toggleSidebar();
+                }}
+              >
+                Contact
+              </div>
             </div>
           </React.Fragment>
         </Sidebar>

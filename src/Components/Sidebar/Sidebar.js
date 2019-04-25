@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "./Sidebar";
+import "./Sidebar.scss";
 
 const Sidebar = ({ children, customClass, show, closeCallback }) => (
   <div
