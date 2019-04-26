@@ -1,5 +1,6 @@
 import React from "react";
 
+// eslint-disable-next-line
 import { Home, About, Testimonials, Contact } from "./Screens/ScreenIndex";
 import { NavBar } from "./Components/ComponentIndex";
 
@@ -13,7 +14,7 @@ function App() {
         <Home />
       </div>
       <About />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
     </body>
   );

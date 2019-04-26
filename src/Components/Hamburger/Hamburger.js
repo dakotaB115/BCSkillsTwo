@@ -22,14 +22,16 @@ export default class Hamburger extends Component {
   render() {
     return (
       <div className="constructor">
-        <div className="wrapper">
-          <img
-            className="menu"
-            onClick={this.toggleSidebar}
-            src={require(`../../Img/Hamburger_icon.png`)}
-            alt="Hamburger_icon.png"
-          />
-        </div>
+        <button
+          className="toggle-button"
+          onClick={() => {
+            this.toggleSidebar();
+          }}
+        >
+          <div className="toggle-button__line" />
+          <div className="toggle-button__line" />
+          <div className="toggle-button__line" />
+        </button>
 
         <Sidebar
           show={this.state.showSidebar}
@@ -38,37 +40,44 @@ export default class Hamburger extends Component {
         >
           <React.Fragment>
             <div className="elements">
-              <div
-                onClick={() => {
-                  this.scrollTo("home");
-                  this.toggleSidebar();
-                }}
-              >
-                Home
-              </div>
-              <div
-                onClick={() => {
-                  this.scrollTo("about");
-                  this.toggleSidebar();
-                }}
-              >
-                About
-              </div>
-              <div
-                onClick={() => {
-                  this.scrollTo("testimonials");
-                  this.toggleSidebar();
-                }}
-              >
-                Testimonials
-              </div>
-              <div
-                onClick={() => {
-                  this.scrollTo("contact");
-                  this.toggleSidebar();
-                }}
-              >
-                Contact
+              {/* <div className="header" /> */}
+              <div className="element-wrapper">
+                <div
+                  className="element"
+                  onClick={() => {
+                    this.scrollTo("home");
+                    this.toggleSidebar();
+                  }}
+                >
+                  Home
+                </div>
+                <div
+                  className="element"
+                  onClick={() => {
+                    this.scrollTo("about");
+                    this.toggleSidebar();
+                  }}
+                >
+                  About
+                </div>
+                <div
+                  className="element"
+                  onClick={() => {
+                    this.scrollTo("testimonials");
+                    this.toggleSidebar();
+                  }}
+                >
+                  Testimonials
+                </div>
+                <div
+                  className="element"
+                  onClick={() => {
+                    this.scrollTo("contact");
+                    this.toggleSidebar();
+                  }}
+                >
+                  Contact
+                </div>
               </div>
             </div>
           </React.Fragment>

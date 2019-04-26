@@ -1,17 +1,49 @@
 .constructor {
   .wrapper {
     cursor: pointer;
-    .menu {
-      display: flex;
-      vertical-align: middle;
-      width: 20px;
-      height: auto;
-    }
   }
   .elements {
-    height: 100%;
+    padding: 20px;
     display: flex;
+    height: 100%;
     flex-direction: column;
-    vertical-align: top;
+    column-gap: 20px;
+    background-color: #ffcc00;
+    // .header {
+    //   height: 71px;
+    //   background-color: #ffcd00;
+    // }
+    .element-wrapper {
+      margin: auto;
+      .element {
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        color: #232528;
+      }
+    }
   }
+}
+.toggle-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30px;
+  width: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.toggle-button__line {
+  width: 30px;
+  height: 2px;
+  background: #232528;
 }

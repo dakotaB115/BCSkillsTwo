@@ -17,12 +17,14 @@ export default class NavBar extends Component {
           <span>BC</span>
           {`SKILLS>`}
         </div>
-        <div className="elements">
+        <div className="navbar-elements">
           <div onClick={() => this.scrollTo("home")}>Home</div>
           <div onClick={() => this.scrollTo("about")}>About</div>
           <div onClick={() => this.scrollTo("testimonials")}>Testimonials</div>
           <div onClick={() => this.scrollTo("contact")}>Contact</div>
-          <Hamburger />
+          <div className="hamburger">
+            <Hamburger />
+          </div>
         </div>
       </div>
     );

@@ -9,12 +9,7 @@ const Sidebar = ({ children, customClass, show, closeCallback }) => (
     style={{ display: show ? "block" : "none" }}
   >
     <div className="overlay" onClick={closeCallback} />
-    <div className="sidebar_content">
-      {children}
-      <button title="Close" className="close_sidebar" onClick={closeCallback}>
-        <i className="fas fa-times" />
-      </button>
-    </div>
+    <div className="sidebar_content">{children}</div>
   </div>
 );
 

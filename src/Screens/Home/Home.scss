@@ -1,14 +1,37 @@
-.home-container {
-  overflow: hidden;
-  background-color: #616264;
-  .content {
-    display: flex;
-    .pic-container {
-      width: 100%;
-      height: auto;
-      > * {
+@media only screen and (min-width: 710px) {
+  .home-container {
+    overflow: hidden;
+    background-color: #616264;
+    .content {
+      display: flex;
+      .pic-container {
         width: 100%;
         height: auto;
+        > * {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 709px) {
+  .home-container {
+    padding-top: 71px;
+    width: 100%;
+    display: flex;
+    background-color: #616264;
+    overflow: hidden;
+    .content {
+      width: 100%;
+      .pic-container {
+        width: 100%;
+        height: auto;
+        > * {
+          width: 100%;
+          height: auto;
+        }
       }
     }
   }
