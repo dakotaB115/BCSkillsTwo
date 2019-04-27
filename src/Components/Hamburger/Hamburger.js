@@ -60,7 +60,7 @@ export default class Hamburger extends Component {
                 >
                   About
                 </div>
-                <div
+                {/* <div
                   className="element"
                   onClick={() => {
                     this.scrollTo("testimonials");
@@ -68,7 +68,7 @@ export default class Hamburger extends Component {
                   }}
                 >
                   Testimonials
-                </div>
+                </div> */}
                 <div
                   className="element"
                   onClick={() => {

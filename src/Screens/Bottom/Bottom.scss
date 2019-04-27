@@ -1,0 +1,13 @@
+@media only screen and (min-width: 769px) {
+  .bottom {
+    display: flex;
+    height: 225px;
+    background-color: #232528b7;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .bottom {
+    display: none;
+  }
+}

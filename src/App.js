@@ -1,7 +1,13 @@
 import React from "react";
 
-// eslint-disable-next-line
-import { Home, About, Testimonials, Contact } from "./Screens/ScreenIndex";
+import {
+  Home,
+  About,
+  // eslint-disable-next-line
+  Testimonials,
+  Contact,
+  Bottom
+} from "./Screens/ScreenIndex";
 import { NavBar } from "./Components/ComponentIndex";
 
 import "./App.scss";
@@ -16,6 +22,7 @@ function App() {
       <About />
       {/* <Testimonials /> */}
       <Contact />
+      <Bottom />
     </body>
   );
 }

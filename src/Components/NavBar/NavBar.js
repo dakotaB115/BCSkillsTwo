@@ -20,7 +20,7 @@ export default class NavBar extends Component {
         <div className="navbar-elements">
           <div onClick={() => this.scrollTo("home")}>Home</div>
           <div onClick={() => this.scrollTo("about")}>About</div>
-          <div onClick={() => this.scrollTo("testimonials")}>Testimonials</div>
+          {/* <div onClick={() => this.scrollTo("testimonials")}>Testimonials</div> */}
           <div onClick={() => this.scrollTo("contact")}>Contact</div>
           <div className="hamburger">
             <Hamburger />
