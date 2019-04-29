@@ -8,17 +8,16 @@ export default class About extends Component {
       <div className="about-container">
         <div className="about-header" style={{ position: "relative" }}>
           <div className="about-header-contents">
-            <div className="about-title">About Us</div>
+            <div className="about-title">Our Mission</div>
             <div
               id="about"
               style={{ position: "absolute", top: -71, right: "50%" }}
             />
             <div className="about-description">
-              At <span>BCSKILLS</span>, we believe <span>EVERYONE</span> has the
-              capacity to be an innovator. We exist to provide opportunities for
-              our students and our community to do just that. With an emphasis
-              on computer science,
-              <span> BCSKILLS</span> is a place where high-demand skills are
+              <span>EVERYONE</span> has the capacity to be an innovator and BC
+              Skills provides the opportunities to do so. With an emphasis on
+              computer science,
+              <span> BC Skills</span> is a place where high-demand skills are
               gained and connected to <span>industry</span>,
               <span> entrepreneurship</span>, and <span>higher-education</span>.
             </div>
@@ -27,7 +26,7 @@ export default class About extends Component {
 
         <div className="about-mission">
           <div className="about-mission-content">
-            <div className="about-mission-title">Mission statement</div>
+            {/* <div className="about-mission-title">Mission statement</div> */}
             <div className="about-mission-statement">
               We offer <span>EDUCATION</span> opportunities beginning as early
               as 4th grade and continuing throughout adulthood. We facilitate

@@ -1,26 +1,27 @@
 @media only screen and (min-width: 769px) {
   .about-container {
+    background-color: #c2c5c7;
     .about-header {
       display: flex;
-      background-color: #232528b7;
+      background-color: #c2c5c7;
       height: auto;
       align-items: center;
       .about-header-contents {
-        padding: 30px;
         margin-top: 10px;
         margin-left: 80px;
         margin-right: 50px;
         .about-title {
+          padding-top: 20px;
           font-weight: 500;
           font-size: 50px;
-          color: #ffcd00;
+          color: #545759;
         }
         .about-description {
           line-height: 30px;
           padding-top: 60px;
           font-weight: 200;
           font-size: 25px;
-          color: #ffcd00;
+          color: #545759;
           > * {
             color: #800000;
             font-weight: 200;
@@ -32,7 +33,7 @@
       display: flex;
       height: auto;
       .about-mission-content {
-        margin-top: 75px;
+        margin-top: 20px;
         margin-left: 80px;
         margin-right: 80px;
         .about-mission-title {
@@ -41,8 +42,8 @@
           color: #9e0000;
         }
         .about-mission-statement {
-          color: #232528;
-          padding-top: 50px;
+          color: #545759;
+          padding-top: 10px;
           line-height: 38px;
           font-size: 30px;
           font-weight: 200;
@@ -69,10 +70,11 @@
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .about-container {
+    background-color: #c2c5c7;
     line-height: 18px;
     .about-header {
       display: flex;
-      background-color: #232528b7;
+      background-color: #c2c5c7;
       height: auto;
       align-items: center;
       .about-header-contents {
@@ -83,13 +85,13 @@
         .about-title {
           font-weight: 500;
           font-size: 25px;
-          color: #ffcd00;
+          color: #545759;
         }
         .about-description {
           padding-top: 25px;
           font-weight: 200;
           font-size: 15px;
-          color: #ffcd00;
+          color: #545759;
           > * {
             color: #800000;
             font-weight: 200;
@@ -101,8 +103,9 @@
       display: flex;
       height: auto;
       .about-mission-content {
-        padding: 10px;
-        margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
         margin-left: 10px;
         margin-right: 10px;
         .about-mission-title {
@@ -111,8 +114,7 @@
           color: #9e0000;
         }
         .about-mission-statement {
-          color: #232528;
-          padding-top: 25px;
+          color: #545759;
           font-size: 15px;
           font-weight: 200;
           > * {
