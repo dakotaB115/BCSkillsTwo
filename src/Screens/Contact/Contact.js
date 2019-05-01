@@ -17,9 +17,9 @@ export default class Contact extends Component {
           </div>
           <div className="column">
             <div className="left">
-              Text me at:
-              <div className="phone">270-629-3967 (office)</div>
-              <div className="phone">270-590-0053 (mobile)</div>
+              Call me at:
+              <div className="phone">270-629-3967 (Office)</div>
+              <div className="phone">270-590-0053 (Mobile)</div>
             </div>
             <div className="right">
               <div className="message">Contact me at:</div>

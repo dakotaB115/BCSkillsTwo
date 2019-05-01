@@ -7,9 +7,9 @@
       height: auto;
       align-items: center;
       .about-header-contents {
-        margin-top: 10px;
-        margin-left: 80px;
-        margin-right: 50px;
+        margin-top: 75px;
+        margin-left: 10%;
+        margin-right: 10%;
         .about-title {
           padding-top: 20px;
           font-weight: 500;
@@ -20,7 +20,7 @@
           line-height: 30px;
           padding-top: 60px;
           font-weight: 200;
-          font-size: 25px;
+          font-size: 30px;
           color: #545759;
           > * {
             color: #800000;
@@ -34,8 +34,8 @@
       height: auto;
       .about-mission-content {
         margin-top: 20px;
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 10%;
+        margin-right: 10%;
         .about-mission-title {
           font-size: 50px;
           font-weight: 300;
@@ -55,14 +55,14 @@
     }
     .about-container-img {
       display: flex;
-      margin-top: 50px;
-      margin-bottom: 10px;
+      margin-top: 75px;
+      padding-bottom: 75px;
       .about-img {
         border-radius: 10px;
         margin-left: auto;
         margin-right: auto;
-        width: 70%;
-        height: 70%;
+        width: 50%;
+        height: 50%;
       }
     }
   }
@@ -126,8 +126,8 @@
   }
   .about-container-img {
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     .about-img {
       border-radius: 10px;
       margin-left: auto;

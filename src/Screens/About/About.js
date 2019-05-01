@@ -32,7 +32,7 @@ export default class About extends Component {
               as 4th grade and continuing throughout adulthood. We facilitate
               opportunities for <span>INNOVATION</span> including partnerships
               with both public and private sector as well as the research and
-              development of original products. We <span>DEPLOY</span>
+              development of original products. We <span>DEPLOY </span>
               our people both locally and nationally as <span>app</span>/
               <span>software</span>/<span>webdevelopers</span>, to
               higher-education, and as <span>ENTREPRENEURS</span>.

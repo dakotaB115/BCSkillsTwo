@@ -14,7 +14,7 @@ import "./App.scss";
 
 function App() {
   return (
-    <body className="App">
+    <div className="App">
       <NavBar className="navbar" />
       <div className="home">
         <Home />
@@ -23,7 +23,7 @@ function App() {
       {/* <Testimonials /> */}
       <Contact />
       <Bottom />
-    </body>
+    </div>
   );
 }
 
