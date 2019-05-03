@@ -16,9 +16,7 @@ function App() {
   return (
     <div className="App">
       <NavBar className="navbar" />
-      <div className="home">
-        <Home />
-      </div>
+      <Home />
       <About />
       {/* <Testimonials /> */}
       <Contact />
